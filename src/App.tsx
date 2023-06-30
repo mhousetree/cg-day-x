@@ -1,25 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styles from "./App.module.css";
+import Card from "./components/card";
+import { lives } from "./lives";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className={styles.header}>
+        <h1>
+          今日はあのライブの
+          <div>
+            Day
+            <img src="./xx.png" alt="xx" />
+          </div>
+          かぁ〜〜〜！！
+        </h1>
       </header>
-    </div>
+      <main className={styles.main}>
+        <div className={styles.cardsWrapper}>
+          {lives.map((live, index) => (
+            <Card
+              key={index}
+              title={live.title}
+              date={live.date}
+              days={live.days}
+              color={live.color}
+              tweetType={live.tweetType}
+            />
+          ))}
+        </div>
+      </main>
+      <footer className={styles.footer}>
+        <small>{new Date().getFullYear()} &copy; はやかわめぐる</small>
+      </footer>
+    </>
   );
 }
 

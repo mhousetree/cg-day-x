@@ -1,0 +1,27 @@
+.card {
+    font-size: .9rem;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 1rem .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px #0004;
+}
+
+.eventTitle {
+    font-size: 1.1rem;
+    font-weight: 500;
+    filter: drop-shadow(0 0 3px #0008);
+}
+
+.datelists {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: .1rem .6rem;
+    margin: 1rem 0;
+}
