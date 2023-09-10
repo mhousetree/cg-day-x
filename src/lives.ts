@@ -13,6 +13,13 @@ export type LiveInfo = {
 
 export const lives: LiveInfo[] = [
   {
+    title: "THE IDOLM@STER CINDERELLA GIRLS Shout out Live!!!",
+    date: new Date("2023-9-9"),
+    days: 2,
+    color: "#d30679",
+    tweetType: { kind: "HashtagWithDay", hashtag: "cgSoL_day" },
+  },
+  {
     title: "THE IDOLM@STER CINDERELLA GIRLS 燿城夜祭 -かがやきよまつり-",
     date: new Date("2023/6/10"),
     days: 2,
