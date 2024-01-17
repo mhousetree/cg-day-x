@@ -13,6 +13,21 @@ export type LiveInfo = {
 
 export const lives: LiveInfo[] = [
   {
+    title: "異次元フェス アイドルマスター★♥ラブライブ！歌合戦",
+    date: new Date("2023/12/9"),
+    days: 2,
+    color: "#eb369e",
+    tweetType: { kind: "HashtagWithDay", hashtag: "異次元フェス_Day" },
+  },
+  {
+    title:
+      "TVアニメ「アイドルマスター シンデレラガールズ U149」 スペシャルトークイベント ～トゥインクルパーティー～",
+    date: new Date("2023/11/11"),
+    days: 2,
+    color: "#75cbdd",
+    tweetType: { kind: "HashtagWithDay", hashtag: "U149トークイベントDAY" },
+  },
+  {
     title: "THE IDOLM@STER CINDERELLA GIRLS Shout out Live!!!",
     date: new Date("2023/9/9"),
     days: 2,
