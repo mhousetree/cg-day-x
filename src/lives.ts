@@ -32,7 +32,7 @@ export const lives: LiveInfo[] = [
     date: new Date("2024/6/16"),
     days: 1,
     color: "#e6dd57",
-    tweetType: { kind: "Hashtag", hashtag: "ugUT_石川" },
+    tweetType: { kind: "Hashtag", hashtag: "cgUT_石川" },
   },
   {
     title:
@@ -40,7 +40,7 @@ export const lives: LiveInfo[] = [
     date: new Date("2024/6/1"),
     days: 1,
     color: "#83eb5e",
-    tweetType: { kind: "Hashtag", hashtag: "ugUT_東京" },
+    tweetType: { kind: "Hashtag", hashtag: "cgUT_東京" },
   },
   {
     title:
@@ -48,7 +48,7 @@ export const lives: LiveInfo[] = [
     date: new Date("2024/5/19"),
     days: 1,
     color: "#e5774e",
-    tweetType: { kind: "Hashtag", hashtag: "ugUT_福岡" },
+    tweetType: { kind: "Hashtag", hashtag: "cgUT_福岡" },
   },
   {
     title:
@@ -56,7 +56,7 @@ export const lives: LiveInfo[] = [
     date: new Date("2024/4/6"),
     days: 1,
     color: "#5090e4",
-    tweetType: { kind: "Hashtag", hashtag: "ugUT_大阪" },
+    tweetType: { kind: "Hashtag", hashtag: "cgUT_大阪" },
   },
   {
     title:
@@ -64,7 +64,7 @@ export const lives: LiveInfo[] = [
     date: new Date("2024/3/10"),
     days: 1,
     color: "#58f0e5",
-    tweetType: { kind: "Hashtag", hashtag: "ugUT_岩手" },
+    tweetType: { kind: "Hashtag", hashtag: "cgUT_岩手" },
   },
   {
     title:
@@ -72,7 +72,7 @@ export const lives: LiveInfo[] = [
     date: new Date("2024/2/3"),
     days: 1,
     color: "#f36061",
-    tweetType: { kind: "Hashtag", hashtag: "ugUT_山形" },
+    tweetType: { kind: "Hashtag", hashtag: "cgUT_山形" },
   },
   {
     title: "異次元フェス アイドルマスター★♥ラブライブ！歌合戦",
