@@ -27,11 +27,11 @@ export default function Card({
       buttonContent = `#${tweetType.hashtag}${nthDay}`;
       break;
     case "Hashtag":
-      tweetLinkQuery = `hashtags=${tweetType.hashtag}&text=Day${nthDay}`;
+      tweetLinkQuery = `text=%23${tweetType.hashtag} Day${nthDay}`;
       buttonContent = `#${tweetType.hashtag} Day${nthDay}`;
       break;
     case "Title":
-      tweetLinkQuery = `${title} Day${nthDay}`;
+      tweetLinkQuery = `text=${title} Day${nthDay}`;
       buttonContent = tweetLinkQuery;
       break;
   }
@@ -48,7 +48,7 @@ export default function Card({
       <dl className={styles.datelists}>
         {Array(days)
           .fill(0)
-          .map((val, i) => {
+          .map((_, i) => {
             return (
               <React.Fragment key={i}>
                 <dt>Day{i + 1}</dt>
