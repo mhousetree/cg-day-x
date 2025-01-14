@@ -13,11 +13,73 @@ export type LiveInfo = {
 
 export const lives: LiveInfo[] = [
   {
+    title: "THE IDOLM@STER M@STER EXPO LIVE SHOWCASE CINDERELLA STAGE",
+    date: new Date("2024/12/14"),
+    days: 2,
+    color: "#2581c7",
+    tweetType: { kind: "HashtagWithDay", hashtag: "アイマスEXPO_ライブ_DAY" },
+  },
+  {
+    title: "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT FANTASY",
+    date: new Date("2024/9/14"),
+    days: 2,
+    color: "#4f86c4",
+    tweetType: { kind: "HashtagWithDay", hashtag: "cgSF_day" },
+  },
+  {
+    title:
+      "THE IDOLM@STER CINDERELLA GIRLS UNIT LIVE TOUR ConnecTrip! 石川公演",
+    date: new Date("2024/6/16"),
+    days: 1,
+    color: "#e6dd57",
+    tweetType: { kind: "Hashtag", hashtag: "ugUT_石川" },
+  },
+  {
+    title:
+      "THE IDOLM@STER CINDERELLA GIRLS UNIT LIVE TOUR ConnecTrip! 東京公演",
+    date: new Date("2024/6/1"),
+    days: 1,
+    color: "#83eb5e",
+    tweetType: { kind: "Hashtag", hashtag: "ugUT_東京" },
+  },
+  {
+    title:
+      "THE IDOLM@STER CINDERELLA GIRLS UNIT LIVE TOUR ConnecTrip! 福岡公演",
+    date: new Date("2024/5/19"),
+    days: 1,
+    color: "#e5774e",
+    tweetType: { kind: "Hashtag", hashtag: "ugUT_福岡" },
+  },
+  {
+    title:
+      "THE IDOLM@STER CINDERELLA GIRLS UNIT LIVE TOUR ConnecTrip! 大阪公演",
+    date: new Date("2024/4/6"),
+    days: 1,
+    color: "#5090e4",
+    tweetType: { kind: "Hashtag", hashtag: "ugUT_大阪" },
+  },
+  {
+    title:
+      "THE IDOLM@STER CINDERELLA GIRLS UNIT LIVE TOUR ConnecTrip! 岩手公演",
+    date: new Date("2024/3/10"),
+    days: 1,
+    color: "#58f0e5",
+    tweetType: { kind: "Hashtag", hashtag: "ugUT_岩手" },
+  },
+  {
+    title:
+      "THE IDOLM@STER CINDERELLA GIRLS UNIT LIVE TOUR ConnecTrip! 山形公演",
+    date: new Date("2024/2/3"),
+    days: 1,
+    color: "#f36061",
+    tweetType: { kind: "Hashtag", hashtag: "ugUT_山形" },
+  },
+  {
     title: "異次元フェス アイドルマスター★♥ラブライブ！歌合戦",
     date: new Date("2023/12/9"),
     days: 2,
     color: "#eb369e",
-    tweetType: { kind: "HashtagWithDay", hashtag: "異次元フェス_Day" },
+    tweetType: { kind: "HashtagWithDay", hashtag: "アイラブ歌合戦_Day" },
   },
   {
     title:
