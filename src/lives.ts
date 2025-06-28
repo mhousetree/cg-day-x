@@ -14,6 +14,28 @@ export type LiveInfo = {
 export const lives: LiveInfo[] = [
   {
     title:
+      "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT STAGE 10th ANNIVERSARY TOUR Let’s AMUSEMENT!!! 福岡公演",
+    date: new Date("2025/6/28"),
+    days: 2,
+    color: "#70bced",
+    tweetType: {
+      kind: "HashtagWithDay",
+      hashtag: "デレステ10thツアー福岡_day",
+    },
+  },
+  {
+    title:
+      "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT STAGE 10th ANNIVERSARY TOUR Let’s AMUSEMENT!!! 沖縄公演",
+    date: new Date("2025/6/7"),
+    days: 2,
+    color: "#ffbf72",
+    tweetType: {
+      kind: "HashtagWithDay",
+      hashtag: "デレステ10thツアー沖縄_day",
+    },
+  },
+  {
+    title:
       "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT STAGE 10th ANNIVERSARY TOUR Let's AMUSEMENT!!! 東京公演",
     date: new Date("2025/4/26"),
     days: 2,
