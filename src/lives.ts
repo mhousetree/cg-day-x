@@ -13,6 +13,66 @@ export type LiveInfo = {
 
 export const lives: LiveInfo[] = [
   {
+    title: "THE IDOLM@STER M@STERS OF IDOL WORLD 2025",
+    date: new Date("2025/12/13"),
+    days: 1,
+    color: "#291620",
+    tweetType: {
+      kind: "HashtagWithDay",
+      hashtag: "MOIW2025_day",
+    },
+  },
+  {
+    title: "CINDERELLA GIRLS fes. Once Upon a St@rs Ever Starlight",
+    date: new Date("2025/11/30"),
+    days: 1,
+    color: "#6b8928",
+    tweetType: {
+      kind: "Hashtag",
+      hashtag: "デレフェス_ES",
+    },
+  },
+  {
+    title: "CINDERELLA GIRLS fes. Once Upon a St@rs Princess Riot",
+    date: new Date("2025/11/30"),
+    days: 1,
+    color: "#d7447f",
+    tweetType: {
+      kind: "Hashtag",
+      hashtag: "デレフェス_PR",
+    },
+  },
+  {
+    title: "CINDERELLA GIRLS fes. Once Upon a St@rs Nocturne Crown",
+    date: new Date("2025/11/29"),
+    days: 1,
+    color: "#3095fd",
+    tweetType: {
+      kind: "Hashtag",
+      hashtag: "デレフェス_NC",
+    },
+  },
+  {
+    title: "CINDERELLA GIRLS fes. Once Upon a St@rs Luminaria Tiara",
+    date: new Date("2025/11/29"),
+    days: 1,
+    color: "#f3e646",
+    tweetType: {
+      kind: "Hashtag",
+      hashtag: "デレフェス_LT",
+    },
+  },
+  {
+    title: "THE IDOLM@STER CINDERELLA GIRLS 10th MEMORIAL LIVE STARLIGHT STAGE",
+    date: new Date("2025/9/6"),
+    days: 2,
+    color: "#3b89c4",
+    tweetType: {
+      kind: "HashtagWithDay",
+      hashtag: "デレステ10thツアー千秋楽_day",
+    },
+  },
+  {
     title:
       "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT STAGE 10th ANNIVERSARY TOUR Let’s AMUSEMENT!!! 福岡公演",
     date: new Date("2025/6/28"),
